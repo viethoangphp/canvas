@@ -10,6 +10,18 @@ var mouse ={
     x:undefined,
     y:undefined
 }
+function play() {
+    const m=new Audio('buff.mp3');
+    m.play();
+}
+var count=0;
+window.onclick = function(){
+    count++;
+   if(count==1)
+   {
+    play();
+   }
+}
 window.addEventListener('mousemove', function(event){
    mouse.x=event.x;
    mouse.y=event.y;
