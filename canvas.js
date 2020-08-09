@@ -95,4 +95,4 @@ function animate() {
     }
 }
 animate();
-console.log(canvas);
+
